@@ -23,8 +23,9 @@ function cartReducer(state = initialCart, action) {
                 return item
             })
         }
+        default: return state;
     }
-    return state;
+ 
 }
 
 export default cartReducer;
